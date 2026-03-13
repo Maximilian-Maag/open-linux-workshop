@@ -9,3 +9,5 @@ Während der Challengephase gibt es einen FAQ Termin. Dort können Fragen gestel
 Am Schluss der Challengephase wird ein Merge-Termin abgehalten. Die Erkenntnisse der Teilnehmer werden zusammengetragen und zu einem Ergebniss verarbeitet. Das Ergebniss umfasst die Linuxlandschaft im Betrieb und die Art und Weise wie Linux in Zukunft innerhalb der Organisation eingesetzt werden soll.
 
 Die Challengephase gliedert sich in zwei Teilbereiche. Die Phase 1 wird alleine bewältigt. Hier sollen die Teilnehmer für sich Lösungen für Realworldproblems finden. Phase 2 beschäftigt sich mit der Zusammenarbeit im Team. In realen Umgebungen müssen oft mehrere Personen Infrastruktur errichten und administieren. Die Teilnehmer müssen Challenges im Team bewältigen.
+
+Dieser Workshop ist agnostisch gegenüber der gewählten Distro.
