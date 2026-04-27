@@ -1,0 +1,43 @@
+\documentclass{article}
+
+\begin{document}
+    \begin{center}
+        \Large \textbf{Challenge 6: Custom Images} \\ [6pt]
+        \normalsize
+        Autor: Maximilian Jakob Maag B.Sc. \\
+        Version: 1.0
+    \end{center}
+
+    \section{Intro}
+    Immer wieder wird unter dem Betriff Golden Image oder Custom Image verlangt ein geändertes Linux Image zu deployen.
+    In dieser Challenge können Sie das nötige Vorgehen üben.
+
+    \section{Lernziele}
+    Sie lernen ein eignes minimales Linux ISO zu erstellen.
+    Diese Fähigkeit soll Ihnen helfen custom images bereitstellen zu können.
+
+    \section{Aufgaben}
+    Diese Aufgaben führen Sie zum Deployment eines kleinen custom images.
+
+    \subsection{Aufgabe 1}
+    Untersuchen Sie die Größe eines typischen Ubuntu Images. Warum ist das ISO File so groß?
+
+    \subsection{Aufgabe 2}
+    Wie groß ist der Linux Kernel selbst? Warum unterscheiden sich die Angabe, die SIe dazu finden können?
+
+    \subsection{Aufgabe 3}
+    Nehmen Sie ein Ubuntu Image. Verändern Sie dieses Minimal, packen Sie es in ein neues ISO file und starten Sie eine VM damit.
+    Verifizieren Sie Ihre Änderung, indem Sie die Hashwerte Ihres Images mit dem Ausgangs Image vergleichen.
+
+    \subsection{Aufgabe 4}
+    Erstellen Sie ein custom Image mit Linux Kernel und Shell das nicht größer als 1 GiB ist.
+
+    \subsection{Aufgabe 5}
+    Erstellen Sie das kleinstmögliche deploybare Linux Image. Es muss den Kernel, eine Shell und ein Anwendungsprogramm enthalten.
+    Das Image sollte eine Größe von 2 MB nicht übersteigen. TIPP: Es ist möglich ein Linuxsystem von einer Floppidisk to booten.
+    
+    \subsection{Aufgabe 6}
+    Erstellen Sie ein Linux Image das nach dem Booten nur lesenden Zugriff auf das Filesystem hat.
+    Welche Anwendungen könnten hier Realisiert werden? TIPP: Read Only Linuxsysteme kommen oft in Firewallsystemen zum Einsatz.
+    Entwicklen Sie einen Usecase, erstellen Sie ein passendes Image und deployen Sie es auf geeigneter Infrastruktur.
+\end{document}
